@@ -9,6 +9,20 @@
 
 // simple data structure, all data types
 
+// REVIEW:
+//doesnt come prebuilt in most languages
+//lowlevel data structures
+//fundamental
+//popular interview Q
+
+// +fast insertion
+// +fast deletionc
+// +ordered
+// +flexible size
+
+// -slow lookup
+// -more memory
+
 const basket = ['apples', 'grapes', 'pears'];
 
 // linked list: apples --> grapes --> pears
