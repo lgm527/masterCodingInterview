@@ -1,0 +1,71 @@
+Stacks & Queues
+
+linear data strucutres
+traverse sequentially
+
+implemented in similar ways, only difference is how they get removed
+
+no random access operation, run commands like push, pop (deal with elements at front or end of structure)
+
+limiting since we can only access the first or last? => built on top of arrays and linked lists
+limited ability is advantage = more control
+
+-------------------
+
+Stacks: LIFO (last in first out)
+
+lookup O(n)
+pop O(1)
+push O(1)
+peek O(1)
+(peek: view top most plate)
+
+real life example: browser history, undo/redo
+
+-------------------
+
+Queues: FIFO (first in first out)
+
+lookup O(n)
+enqueue O(1)
+dequeue O(1)
+takes first item off list(like Javascript .shift())
+peek O(1)
+
+real life example: line for concert, waitlist, printer
+
+why would you not want to use an array for a queue?
+not efficient! dequeue/shift is very costly in an array.
+
+Stacks
+
+google
+udemy.com
+youtube
+
+arrays?
+linked lists?
+
+both implementations will work well (Depends on priorities). Arrays allow for cache locatilty (stored next to each other in memory-slightly faster). Linked Lists have extra memory due to pointers, but more dynamic memory.
+
+
+Queues
+
+Matt -- Joy -- Samir --  Pavel
+
+arrays
+linked lists
+
+//Would only use Linked Lists, as dequeueing is not time efficient in arrays. With Linked Linked Lists, just remove pointer, no need to shift all other items.
+
+//REVIEW: stacks & queues
+plates & waiting line.
+built on top of linked lists and arrays
+dont use array to build queues, use linked lists.
+most interested in end bits (first/last or top/bottom)
+
+(+) fast operations
+(+) fast peek
+(+) ordered
+
+(-) slow lookup
